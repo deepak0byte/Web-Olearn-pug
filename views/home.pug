@@ -1,0 +1,106 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/home.css
+
+block content 
+        nav#navbar1
+            ul 
+                li #[a(href="/") Development  ]
+                li #[a(href="/") Business  ]
+                li #[a(href="/") IT & Software ]
+                li #[a(href="/") Office Productivity  ]
+                li #[a(href="/") Personal Development ]
+                li #[a(href="/") Design ]
+                li #[a(href="/") Marketing ]
+                li #[a(href="/") Finance ]
+                li #[a(href="/") Music ]
+    
+        section#offers 
+            h1.head Sale ends tonight
+            p.head New look, same ambitions. Reach your potential with courses from ₹490.
+        section.heading
+            h1 Let's start learning      
+        section#intro 
+            div.box 
+                img(src="../static/img/ai.jpg", alt=""  style='width:210px') 
+                h2 Artifical intelligence course 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque!
+                h2 ₹490/- 
+            div.box 
+                img(src="../static/img/ml.jpg", alt="" style='width:210px') 
+                h2 Machine learning course 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque!
+                h2 ₹490/- 
+            div.box 
+                img(src="../static/img/git.jpg", alt="" style='width:210px') 
+                h2 Git Zero to beyond course 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque!
+                h2 ₹490/- 
+            div.box 
+                img(src="../static/img/webdev.jpg", alt="" style='width:210px') 
+                h2 Web Development course 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque!
+                h2 ₹490/- 
+            div.box 
+                img(src="../static/img/appdev.jpg", alt="" style='width:210px') 
+                h2 Android Development course 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque!
+                h2 ₹490/- 
+
+        section.heading 
+             h1 What to learn next 
+
+        section.you 
+            h1 Recommended for you   
+        section#intro1 
+            div.box 
+                img(src="../static/img/c++.jpg", alt="" style='width:210px') 
+                h2 C++ Complete beginer course 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque!
+                h2 ₹490/- 
+            div.box 
+                img(src="../static/img/react.jpg", alt="" style='width:210px') 
+                h2 React Zero to beyond course 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque!
+                h2 ₹490/- 
+            div.box 
+                img(src="../static/img/py.jpg", alt="" style='width:210px') 
+                h2 Full stack python course 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque!
+                h2 ₹490/- 
+            div.box 
+                img(src="../static/img/js.jpg", alt="" style='width:210px') 
+                h2 Backend javascript course 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque!
+                h2 ₹490/- 
+            div.box 
+                img(src="../static/img/swift.jpg", alt="" style='width:210px') 
+                h2 Swift Complete course for beginer 
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, cumque!
+                h2 ₹490/- 
+        section.you 
+            h1 Topic recommended for you
+            div.container  
+                div.grid-item Android Studio
+                div.grid-item Java
+                div.grid-item iOS Development
+                div.grid-item Kotlin
+                div.grid-item Google Flutter
+                div.grid-item Mobile Development
+                div.grid-item Dart(Programming lnaguage)
+                div.grid-item Firebase
+                div.grid-item Python
+                div.grid-item Web Development
+
+        section#teach 
+            div.teach1
+                h2 Top companies choose Olearn Business to build in-demand career skills.
+                img(src="../static/img/apple.png", alt="Apple")
+                img.white(src="../static/img/netflix.png", alt="Apple")
+                img.white(src="../static/img/box.png", alt="Apple")
+                img(src="../static/img/even.png", alt="Apple")

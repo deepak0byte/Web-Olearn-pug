@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    padding: 0px 4px;
+}
+
+.login {
+    margin-top: 15px;
+    width: 35px;
+    height: 35px;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 17px 4px;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 0px 18px;
+    font-size: 18px;
+    color: black;
+    /* font-family: 'Uchen', serif; */
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-weight: 500;
+    align-items: center;
+
+}
+
+#navbar1 ul {
+    box-shadow: 0px 4px 10px -6px #8d6f6f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar1 li {
+    list-style: none;
+    padding: 15px 17px;
+}
+
+#navbar1 a {
+    text-decoration: none;
+    padding: 0px 7px;
+    font-size: 16px;
+    color: black;
+}
+
+#olearn {
+    margin: 0px;
+    filter: hue-rotate(348deg);
+}
+
+#offers {
+    height:360px;
+    background: url('../static/img/intro.jpg');
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.head {
+    width: 40%;
+    background-color: rgb(215, 239, 250);
+    padding: 10px;
+    box-shadow: 0px 4px 8px -6px #584848;
+}
+
+.box {
+    /* border: 2px solid black; */
+    margin: 10px;
+    width: 40%;
+    padding: 10px;
+}
+
+.box h2 {
+    /* font-family: 'Playfair Display', serif; */
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-size: 20px;
+}
+
+.box img {
+    border: 0.8px solid black;
+}
+
+.heading h1 {
+    margin: 20px;
+    font-size: 36px;
+}
+
+#intro {
+    height: 320px;
+    display: flex;
+}
+
+#intro p {
+    font-size: 15px;
+    width: 210px;
+}
+
+#intro1 {
+    height: 320px;
+    display: flex;
+}
+
+#intro1 p {
+    font-size: 15px;
+    width: 210px;
+}
+
+
+.you {
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+
+.you h1 {
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+#courses {
+    height: 400px;
+    background-color: rgb(240, 11, 137);
+}
+
+.container {
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: .6rem;
+    margin: 16px;
+}
+
+.grid-item {
+    border: 0.8px solid black;
+    padding: 12px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+}
+#teach{
+    color: white;
+    background-color: #1c1d1f;    
+    padding: 10px 0px;
+    margin-bottom: 0.3px;
+
+}
+.teach1{
+    display: flex;
+    align-items: center;
+}
+.teach1 img{
+    height: 50px;
+    margin: 4px 19px;
+}
+.teach1 h2{
+    font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
+    font-size: 20px;
+    padding-right: 86px;
+    padding-left: 28px;
+}
+.white{
+    filter: invert(1);
+}
+
+#footer {
+    display: flex;
+    height: 35px;
+    background-color: #1c1d1f;
+    color: white;    
+    justify-content: center;
+    align-items: center;
+}
