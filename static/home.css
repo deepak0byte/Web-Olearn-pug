@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Qahiri&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -13,9 +15,10 @@
 }
 
 .login {
-    margin-top: 15px;
+    margin-top: 23px;
     width: 35px;
     height: 35px;
+    margin-left: 3px;
 }
 
 #navbar ul {
@@ -27,7 +30,7 @@
 
 #navbar li {
     list-style: none;
-    padding: 17px 4px;
+    padding: 26px 4px;
 }
 
 #navbar a {
@@ -39,7 +42,13 @@
     font-family: sf pro display, -apple-system, BlinkMacSystemFont, Roboto, segoe ui, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
     font-weight: 500;
     align-items: center;
+}
 
+#navbar a:hover {
+    color: white;
+    background-color: rgb(17, 0, 255);
+    padding:9px 18px;
+    border-radius:100000000000000px;
 }
 
 #navbar1 ul {
@@ -58,12 +67,23 @@
     text-decoration: none;
     padding: 0px 7px;
     font-size: 16px;
-    color: black;
+    color: rgb(0, 0, 0);
+}
+
+#navbar1 a:hover {
+    color: rgb(140, 7, 202);
 }
 
 #olearn {
-    margin: 0px;
-    filter: hue-rotate(348deg);
+    font-family: 'Qahiri', sans-serif;
+    font-weight: lighter;
+    color: rgb(68, 0, 255);
+}
+
+#olearn h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 6px;
 }
 
 #offers {
@@ -77,6 +97,10 @@
 
 h1 {
     font-size: 50px;
+}
+
+.welcome {
+    color: black;
 }
 
 p {
@@ -154,6 +178,12 @@ p {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: .6rem;
     margin: 16px;
+    text-align: center;
+}
+.grid-item:hover{
+    opacity: 0.5;
+    color: rgb(68, 0, 255);
+    cursor: pointer;
 }
 
 .grid-item {
@@ -189,7 +219,10 @@ p {
     padding-right: 86px;
     padding-left: 28px;
 }
-
+.box img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
 .white {
     filter: invert(1);
 }
